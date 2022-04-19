@@ -1,0 +1,5 @@
+valorPrestacao = float(input('Entrada:\nDigite o valor da prestação: '))
+multa = float(input('Digite o valor da multa: '))
+qntDias = int(input('Digite quantos dias a prestação está em atraso: '))
+prestacao = valorPrestacao + (valorPrestacao*(multa/100)*qntDias)
+print(f'\nSaída\nO preço a ser pago da prestação com o valor da multa é de: R${prestacao:.2f}.')
